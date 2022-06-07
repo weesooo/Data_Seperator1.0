@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 
-time.sleep(1)
+time.sleep(2)
 print('Files under current directory:')
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 print(files)
